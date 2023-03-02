@@ -45,10 +45,13 @@
   border-radius: 10px;
   padding: 5px 25px;
   margin: 10px;
-  box-shadow: 0px 1px 3px 0px black;
   text-transform: uppercase;
   cursor: pointer;
   letter-spacing: 1px;
+}
+.nav-login input[type="button"]:hover {
+  color: #005b97;
+  background-color: white;
 }
 .hero-title {
   text-align: center;
@@ -63,7 +66,7 @@
   line-height: 1.5;
   color: white;
   text-transform: uppercase;
-  padding: 0 30%;
+  padding: 0 32%;
   letter-spacing: 2px;
 }
 .hero-btns {
@@ -84,11 +87,13 @@
   margin: 0 10px 0px 10px;
   margin-top: 5px;
   box-shadow: 0px 1px 3px 0px black;
-  transition: .1s;
+  transition: 0.1s;
+  cursor: pointer;
+  z-index: 9999;
 }
-.btn:hover{
-  color:white;
-  background-color:  #005b97;
+.btn:hover {
+  color: white;
+  background-color: #005b97;
 }
 
 .section-2 {
@@ -120,7 +125,8 @@
   text-align: center;
   border-radius: 10px;
   margin-bottom: 50px;
-  box-shadow: 0px 2px 5px 0px black;
+  box-shadow: 0px 1px 10px 0px gray;
+
   width: 210px;
 }
 /* .features div {
@@ -165,9 +171,12 @@
   border-radius: 5px;
   padding: 8px 55px;
   margin-right: 10px;
-  box-shadow: 0px 2px 5px 0px black;
   text-transform: uppercase;
   letter-spacing: 1.5px;
+}
+.text .book-now-btn:hover {
+  background-color: #114779;
+  color: white;
 }
 .phone-call {
   display: flex;
@@ -190,54 +199,50 @@
 }
 
 .section-4 {
-  margin: 40px 45px 50px;
+  margin: 40px 45px 20px;
   padding: 20px;
-
 }
 .container-4 {
-   display: flex;
+  display: flex;
   background-image: url("../Export/Form.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
- 
 }
-.container-4 .booking{
+.container-4 .booking {
   padding-left: 40px;
   padding-top: 30px;
 }
-.booking p{
+.booking p {
   font-size: 1rem;
   font-weight: 900;
   letter-spacing: 1px;
   margin-bottom: 15px;
 }
-.booking h1{
+.booking h1 {
   font-weight: bolder;
   font-size: 1.4rem;
   margin-bottom: 20px;
   letter-spacing: 1px;
 }
-.booking input{
+.booking input {
   border: none;
-  box-shadow: 0px 2px 5px 0px black;
+  box-shadow: 0px 1px 10px 0px gray;
   height: 40px;
   width: 16rem;
   margin-bottom: 30px;
   margin-right: 20px;
   outline: none;
-  
 }
-.booking input::placeholder{
+.booking input::placeholder {
   font-family: inherit;
-  padding:10px 0 10px 10px;
+  padding: 10px 0 10px 10px;
   font-weight: 500;
   letter-spacing: 1px;
-  color: #4B4B4B;
- 
+  color: #4b4b4b;
 }
-.booking input[type="button"]{
+.booking input[type="button"] {
   background-color: #52a8f9;
   font-family: "Chakra Petch";
   font-weight: 600;
@@ -245,17 +250,188 @@
   color: white;
   border: none;
   border-radius: 5px;
+  box-shadow: none;
+  margin-bottom: 70px;
   width: 8rem;
 }
-.booking-form{
+.booking input[type="button"]:hover {
+  background-color: #03416a;
+}
+.booking-form {
   width: 50%;
   margin-top: 30px;
-  margin-bottom: 35px ;
+  margin-bottom: 35px;
 }
-input[type="text"]{
+input[type="text"] {
   padding-left: 0px;
 }
+.section-5 {
+  text-align: center;
+}
 
+.section-5 h2 {
+  font-weight: 900;
+  font-size: 1.6rem;
+  padding: 0 36% 0;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+.section-6 {
+  margin: 40px 45px 15%;
+  padding: 20px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.card-img img {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
 
+.card-info {
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 4px 7px 11px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-align: start;
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 85%;
 
+  margin-top: 53%;
+}
+.card-info > p:first-child {
+  letter-spacing: 0.5px;
+  color: #52a8f9;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.card-info > p:nth-child(2) {
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  line-height: 2.5;
+  color: #232323;
+}
 
+.card-info > p:nth-child(3) {
+  color: #393939;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  padding-bottom: 20px;
+  padding-right: 5px;
+}
+.section-7 {
+  margin: 40px 45px 20px;
+  padding: 10px;
+
+}
+.container-7 {
+  background-color: #2593f9;
+  padding: 15px 40px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+.stats {
+  text-align: center;
+  width: 250px;
+}
+.stats > p {
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+.stats > p:nth-child(2) {
+  font-size: 1.5rem;
+  color: yellow;
+  margin-top: 20px;
+}
+.stats > p:nth-child(3) {
+  font-size: 1.2rem;
+  color: yellow;
+}
+.stats > img{
+  width: 20%;
+}
+.vl {
+  border-left: 2px solid rgba(8, 44, 91, 0.15);
+  height: 210px;
+}
+.section-8 {
+  margin: 40px 45px 20px;
+  padding: 20px;
+}
+.container-8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.heading > p:first-child {
+  color: #747574;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.heading > p:nth-child(2) {
+  font-weight: 700;
+  font-size: 1.8rem;
+  padding: 0 10%;
+}
+.review {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* padding: 0 0% 0; */
+}
+.review-card {
+  border-radius: 10px;
+  background-image: url("../Export/Quotes.svg");
+  background-repeat: no-repeat;
+  background-size: 4.5%;
+  background-position: top 20px left 25px;
+  margin-top: 5%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.review-card > img {
+  width: 15%;
+  top: -50px;
+  position: absolute;
+}
+.review-card > p:nth-child(2) {
+  margin-top: 8%;
+  font-size: 1.3rem;
+  line-height: 2;
+  font-weight: bold;
+}
+.review-card > p:nth-child(3) {
+  padding: 0 20px 20px;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #393939;
+}
+.rev-1 {
+  margin-right: 105px;
+  background-color: #f4f97f;
+  box-shadow: 4px 7px 11px rgba(0, 0, 0, 0.25);
+}
+.rev-2 {
+  background-color: #b9e4ff;
+  box-shadow: 4px 7px 11px rgba(0, 0, 0, 0.25);
+}
