@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap");
+
+.hero {
+  background-size: cover;
+
+  background: url("../Export/Hero-image.png") no-repeat center fixed;
+  background-size: cover;
+
+  width: 100vw;
+  /*     
+    background-image: linear-gradient(rgba(15, 118, 187, 0.829), rgba(21, 150, 236, 0.897)), url('../images/main-bg.jpeg');
+    background-size: cover; */
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.nav-items ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-items ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  margin-right: 90px;
+  font-family: "Chakra Petch", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.nav-items ul li a:hover {
+  color: yellow;
+}
+.nav-login input[type="button"] {
+  background-color: yellow;
+  font-family: "Chakra Petch";
+  font-weight: 700;
+  font-size: 1rem;
+  color: #005b97;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 25px;
+  margin: 10px;
+  box-shadow: 0px 0px 8px -20px black;
+  text-transform: uppercase;
+}
+.hero-title {
+  text-align: center;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Chakra Petch";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: white;
+  text-transform: uppercase;
+  padding: 0 35%;
+}
+.hero-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-bottom: 12%;
+}
+.hero-btns button {
+  font-family: "Chakra Petch";
+  font-weight: 700;
+  background-color: white;
+  color: #005b97;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 30px;
+  margin: 0 10px 0px 10px;
+  margin-top: 5px;
+  box-shadow: 0px 0px 8px -20px black;
+}
+
+.section-2 {
+  background-color: yellow;
+  width: 100vw;
+}
+.plane {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+}
+.plane-img {
+  position: absolute;
+  width: 80%;
+}
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.features div {
+  font-family: "Chakra Petch";
+  margin-top: 12%;
+  margin: 15% 30px 10px;
+  background-color: white;
+  padding: 10px 30px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 50px;
+
+  width: 210px;
+}
+/* .features div {
+  margin-top: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.section-3 {
+  margin: 40px 45px 50px;
+  padding: 20px;
+}
+.container-3 {
+  display: flex;
+  justify-content: center;
+}
+.text {
+  padding: 10px;
+}
+.text p {
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding-right: 18rem;
+  line-height: 1.5;
+}
+
+.text h1 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: #52a8f9;
+  padding: 15px 40% 20px 0px;
+  line-height: 1.2;
+}
+.text .book-now-btn {
+  background-color: #52a8f9;
+  font-family: "Chakra Petch";
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 55px;
+  margin-right: 10px;
+  box-shadow: 0px 0px 8px -20px black;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+.phone-call {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.phone-no {
+  color: #52a8f9;
+  text-decoration: none;
+  font-weight: bolder;
+}
+.vimaan-vali-bai {
+  text-align: right;
+}
+.vimaan-vali-bai img {
+  width: 80%;
+  border-radius: 30px;
+  box-shadow: -40px 20px #d9d9d9, -40px -20px #d9d9d9;
+  border-collapse: collapse;
+}
+
+.section-4 {
+  margin: 40px 45px 50px;
+  padding: 20px;
+}
+.container-4 {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  background-image: url("../Export/Form.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
